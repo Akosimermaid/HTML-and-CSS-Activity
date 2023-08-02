@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Basic HTML and CSS Example</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Hello World!</h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Welcome Section -->
+        <section>
+            <h2>Welcome to my website!</h2>
+            <p>This is a basic example of HTML and CSS.</p>
+        </section>
+
+        <!-- About Me Section -->
+        <section>
+            <h2>About Me</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita modi nemo incidunt commodi ipsa repudiandae, accusantium officiis cum nobis? Eaque rerum unde dicta quasi assumenda. Maiores ipsum sunt doloribus nemo.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente nisi, ad repudiandae placeat aperiam iste deserunt illum omnis nobis eos officiis nam, architecto praesentium expedita iure reiciendis debitis eius dolore.</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+
+        <!-- Sample HTML Form Section -->
+        <section>
+            <h2>Sample HTML Form</h2>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+
+                <label for="gender">Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+                <br>
+
+                <label for="hobbies">Hobbies:</label>
+                <input type="checkbox" id="reading" name="hobbies" value="reading">
+                <label for="reading">Reading</label>
+                <input type="checkbox" id="gaming" name="hobbies" value="gaming">
+                <label for="gaming">Gaming</label>
+                <input type="checkbox" id="sports" name="hobbies" value="sports">
+                <label for="sports">Sports</label>
+                <br>
+
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                    <option value="uk">UK</option>
+                    <option value="australia">Australia</option>
+                </select>
+                <br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" cols="30" required></textarea>
+                <br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 My Simple Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
